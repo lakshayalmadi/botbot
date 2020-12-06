@@ -26,7 +26,7 @@ app.post('/new-message', function(req, res) {
   // Remember to use your own API toked instead of the one below  "https://api.telegram.org/bot<your_api_token>/sendMessage"
   axios
     .post(
-      'https://api.telegram.org/bot811080624:AAEYjlNiIBobTKTM7tobPwr6euZWKYoYLig/sendMessage',
+      'https://api.telegram.org/bot811080624:/sendMessage',
       {
         chat_id: message.chat.id,
         text: 'Hello. How are you today?'
